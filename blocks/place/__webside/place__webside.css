@@ -1,0 +1,6 @@
+.place__webside {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: 0;
+}

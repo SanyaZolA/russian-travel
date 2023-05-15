@@ -1,0 +1,9 @@
+.photo-grid__item {
+  max-width: 284px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.photo-grid__item:hover {
+  transform: scale(1.10);
+  box-shadow: 0 0 15px #909090;
+}
