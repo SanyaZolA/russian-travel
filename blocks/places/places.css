@@ -1,4 +1,4 @@
 .places.css {
-  max-width: 984px;
-  margin: 0 148px 0 148px;
+  width: calc(984px - 148px * 2);
+  margin: 0 0 0 148px;
 }
