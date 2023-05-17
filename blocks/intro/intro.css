@@ -1,6 +1,6 @@
 .intro {
-  width: calc(100% - 442px);
+  width: 690px;
   display: flex;
   flex-direction: column;
-  margin: 92px 0 92px 148px;
+  margin: 92px 148px 92px 148px;
 }
