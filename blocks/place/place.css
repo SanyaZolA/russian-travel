@@ -1,9 +1,11 @@
 .place {
-  display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
+  display: grid;
+  grid-template-columns: 460px 1fr;
   column-gap: 40px;
-  margin: 0 148px 80px 148px;
-  width: 984px;
-  height: 660px;
+  row-gap: 48px;
+  padding: 80px 0 0 0;
+}
+
+.place:first-child {
+  padding: 92px 0 0 0;
 }
