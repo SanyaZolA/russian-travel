@@ -5,7 +5,7 @@
   font-size: 16px;
   line-height: 112%;
   margin: 0;
-  padding: 0 18px 0 0;
+  padding: 0;
   text-decoration: none;
   transition: opacity .2s linear;
 }
@@ -14,7 +14,7 @@
   opacity: .8;
 }
 
-.footer__link:last-of-type {
+.footer__lnk:last-of-type {
   padding: 0;
 }
 

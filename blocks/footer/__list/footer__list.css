@@ -1,0 +1,11 @@
+.footer__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 18px;
+}
+
+.footer__list:last-child {
+  padding-right: 18px;
+}
