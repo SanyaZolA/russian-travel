@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 117%;
   color: #ffffff;
   text-decoration: none;
 }
@@ -11,4 +11,11 @@
 .header__lang-link:first-of-type {
   text-decoration-line: underline;
 
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+      font-size: 18px;
+      line-height: 111%;
+  }
 }
