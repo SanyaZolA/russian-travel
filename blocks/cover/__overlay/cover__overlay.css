@@ -44,7 +44,7 @@
   }
 }
 
-@media screen and (max-width: 554px) {
+@media screen and (max-width: 320px) {
   .cover__overlay {
       min-height: 200px;
       justify-content: start;
