@@ -5,7 +5,7 @@
   padding: 0 0 32px 0;
   font-weight: 900;
   font-size: 96px;
-  line-height: 104px;
+  line-height: 104%;
 }
 
 @media screen and (max-width: 768px) {
