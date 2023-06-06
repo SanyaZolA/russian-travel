@@ -8,17 +8,19 @@
   line-height: 104%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
   .lead__title {
     padding: 0 24px 32px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__title {
-    padding: 0 16px;
     font-size: 40px;
     line-height: 110%;
     max-width: 288px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    padding: 0 16px 16px 16px;
+
+  }
+}
+
