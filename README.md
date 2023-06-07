@@ -1,4 +1,4 @@
-# Проект второго модуля ["Путешествия по России"](https://sanyazola.github.io/russian-travel/).
+# Второй проект первого модуля ["Путешествия по России"](https://sanyazola.github.io/russian-travel/).
 
 В проекте присутствуют:
 
