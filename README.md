@@ -1,6 +1,6 @@
 # ![](./images/logo-ico.ico) *Путешествия по России / Traveling in Russia*
 
-**Путешествия по России / Traveling in Russia** — Проект описывающий интересные места для путишествия по России.
+**Путешествия по России / Traveling in Russia** — Проект описывающий интересные места для путешествия по России.
 
 [Демо-страница](https://sanyazola.github.io/russian-travel/)
 
