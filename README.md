@@ -1,4 +1,4 @@
-# ![](./images/icon2.svg) *Путешествия по России / Traveling in Russia*
+# ![](./images/logo-ico.ico) *Путешествия по России / Traveling in Russia*
 
 **Путешествия по России / Traveling in Russia** — Проект описывающий интересные места для путишествия по России.
 
