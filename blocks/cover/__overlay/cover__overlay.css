@@ -13,6 +13,7 @@
   margin: 0 auto;
   padding: 0;
   text-decoration: none;
+  border-radius: 20px;
 }
 
 .cover__overlay:before {
