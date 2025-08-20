@@ -9,7 +9,8 @@
   <meta name="author" content="Сергеев Александр">
   <title>Путешествия по России</title>
   <link href="./pages/index.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./pages/atropos.css" />
+  <link rel="stylesheet" href="./node_modules/atropos/atropos.css" />
+  <link rel="stylesheet" href="./pages/my-atropos.css" />
   <link rel="icon" href="./images/logo-ico.ico" sizes="any">
   <link rel="icon" href="./images/icon2.svg" type="image/svg+xml">
   <link rel="icon" href="./images/logo-ico.ico" type="image/x-icon" sizes="any">
@@ -61,8 +62,7 @@
         <div class="atropos-scale">
           <div class="atropos-rotate">
             <div class="atropos-inner">
-              <div class="atropos-content">
-              <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="фото из окна поезда" loading="lazy"></div>
+              <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="фото из окна поезда" loading="lazy">
             </div>
           </div>
         </div>
@@ -308,15 +308,18 @@
     </nav>
     <p class="footer__copyright">&copy; 2023. Александр Сергеев</p>
   </footer>
+
 </body>
 
-<script type="module">
-  import Atropos from "https://cdn.jsdelivr.net/npm/atropos@2.0.2/atropos.min.mjs";
-
+<script src="./node_modules/atropos/atropos.min.js"></script>
+<script>
   document.querySelectorAll('.my-atropos').forEach((el) => {
     Atropos({
-      el,
+    el,
+    shadow: true,
     highlight: true,
+    activeOffset: 50,
+    rotateTouch: true,
     });
   });
 </script>
