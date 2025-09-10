@@ -39,3 +39,13 @@
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__list-link/footer__list-link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.splide__track, .splide__list {
+  border-radius: 10px;
+}
