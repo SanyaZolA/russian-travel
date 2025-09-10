@@ -9,6 +9,7 @@
   <meta name="author" content="Сергеев Александр">
   <title>Traveling in Russia</title>
   <link href="./pages/index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./node_modules/@splidejs/splide/dist/css/themes/splide-skyblue.min.css">
   <link rel="stylesheet" href="./node_modules/atropos/atropos.css" />
   <link rel="stylesheet" href="./pages/my-atropos.css" />
   <link rel="icon" href="./images/logo-ico.ico" sizes="any">
@@ -375,6 +376,7 @@ the mountain air.</p>
   </footer>
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script src="./node_modules/atropos/atropos.min.js"></script>
 <script>
   document.querySelectorAll('.my-atropos').forEach((el) => {
@@ -385,6 +387,10 @@ the mountain air.</p>
     activeOffset: 50,
     rotateTouch: true,
     });
+  });
+  
+  document.querySelectorAll('.image-carousel').forEach((el) => {
+  new Splide(el).mount();
   });
 </script>
 
